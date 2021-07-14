@@ -167,7 +167,7 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('/images/banner/hexo.png') no-repeat center center;
+         style="background: url('/images/banner/hexo_build.png') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
@@ -243,7 +243,7 @@
             
               <p class="note note-info">
                 
-                  本文最后更新于：5 个月前
+                  本文最后更新于：17 分钟前
                 
               </p>
             
@@ -254,18 +254,18 @@
 
 <span id="more"></span>
 
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>博客，在如今信息化的时代或许看起来有点可笑，人人都可以在各大社交平台快速地发布动态，短视频，更加方便地与朋友，同学一起互动点赞评论，但正是在如此信息化的时代，或许独立博客才是个人真正的归属</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>博客，在如今信息化的时代或许看起来有点可笑，人人都可以在各大社交平台快速地发布动态，短视频，更加方便地与朋友，同学一起互动点赞评论，但正是在如此信息化的时代，或许独立博客才是个人真正的归属</p>
 <p>对于个人来讲，拥有自己的独立博客，像是拥有了一座自己的房子，可以在此平台下记录周围的一切，可以在此畅所欲言，可以遇到许多志同道合的朋友，研究一些新奇的玩意来充实博客</p>
 <blockquote>
 <p>能够坚持写博客的人都是有自我想法的人</p>
 </blockquote>
 <p>希望你能坚持看完这篇文章并坚持写下去</p>
-<h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><p>Heox是一个静态博客程序，庞大的社区，开源支持，Node.js所带来的快速生成速度，对Markdown的支持等等，这些让许多想快速拥有自己的独立博客的人更加便利，只需要一个命令便可以成功部署到Github Page上</p>
+<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>Heox是一个静态博客程序，庞大的社区，开源支持，Node.js所带来的快速生成速度，对Markdown的支持等等，这些让许多想快速拥有自己的独立博客的人更加便利，只需要一个命令便可以成功部署到Github Page上</p>
 <p><strong>Hexo是基于Node.js的静态博客框架，用Git进行博客的更新</strong></p>
-<h1 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h1><p>安装Hexo之前，先要安装Node.js和Git：</p>
+<h2 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h2><p>安装Hexo之前，先要安装Node.js和Git：</p>
 <p><a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/download/">Node.js</a></p>
 <p><a target="_blank" rel="noopener" href="https://git-scm.com/downloads">Git</a></p>
-<h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><h3 id="全局安装Hexo"><a href="#全局安装Hexo" class="headerlink" title="全局安装Hexo"></a>全局安装Hexo</h3><p>打开Git终端：鼠标右键-&gt;git bash（前提要安装Git），输入以下代码安装Hexo</p>
+<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><h3 id="全局安装Hexo"><a href="#全局安装Hexo" class="headerlink" title="全局安装Hexo"></a>全局安装Hexo</h3><p>打开Git终端：鼠标右键-&gt;git bash（前提要安装Git），输入以下代码安装Hexo</p>
 <figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">npm install -g hexo-cli<br></code></pre></div></td></tr></table></figure>
 
 <h3 id="初始化Hexo"><a href="#初始化Hexo" class="headerlink" title="初始化Hexo"></a>初始化Hexo</h3><p>在想作为博客文件夹的位置打开Git终端（同上），输入：</p>
@@ -279,14 +279,14 @@
 <figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">hexo s<br></code></pre></div></td></tr></table></figure>
 
 <p>打开浏览器输入<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> 即可预览</p>
-<h1 id="Hexo命令"><a href="#Hexo命令" class="headerlink" title="Hexo命令"></a>Hexo命令</h1><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">hexo clean <span class="hljs-comment">#清除生成的博客静态文件</span><br>hexo g <span class="hljs-comment">#生成博客静态文件 即hexo generate</span><br>hexo s <span class="hljs-comment">#启动博客的本地预览 即hexo server</span><br>hexo d <span class="hljs-comment">#推送博客到远程仓库 即hexo deploy</span><br>hexo new page xxx <span class="hljs-comment">#新建名为“xxx”的页面</span><br>hexo new xxx <span class="hljs-comment">#新建名为“xxx”的文章</span><br>hexo d -g <span class="hljs-comment">#生成静态博客并推送到远程仓库</span><br>hexo s -g <span class="hljs-comment">#生成静态博客并启动本地预览</span><br></code></pre></div></td></tr></table></figure>
+<h3 id="Hexo命令"><a href="#Hexo命令" class="headerlink" title="Hexo命令"></a>Hexo命令</h3><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">hexo clean <span class="hljs-comment">#清除生成的博客静态文件</span><br>hexo g <span class="hljs-comment">#生成博客静态文件 即hexo generate</span><br>hexo s <span class="hljs-comment">#启动博客的本地预览 即hexo server</span><br>hexo d <span class="hljs-comment">#推送博客到远程仓库 即hexo deploy</span><br>hexo new page xxx <span class="hljs-comment">#新建名为“xxx”的页面</span><br>hexo new xxx <span class="hljs-comment">#新建名为“xxx”的文章</span><br>hexo d -g <span class="hljs-comment">#生成静态博客并推送到远程仓库</span><br>hexo s -g <span class="hljs-comment">#生成静态博客并启动本地预览</span><br></code></pre></div></td></tr></table></figure>
 
 <p>现在你的博客已经安装完成了，接下来关联远程仓库</p>
-<h1 id="关联Github仓库"><a href="#关联Github仓库" class="headerlink" title="关联Github仓库"></a>关联Github仓库</h1><h3 id="创建Github仓库"><a href="#创建Github仓库" class="headerlink" title="创建Github仓库"></a>创建Github仓库</h3><p><img src="/images/post/github/1.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="关联Github仓库"><a href="#关联Github仓库" class="headerlink" title="关联Github仓库"></a>关联Github仓库</h2><h3 id="创建Github仓库"><a href="#创建Github仓库" class="headerlink" title="创建Github仓库"></a>创建Github仓库</h3><p><img src="/images/post/hexo_build/1.png" srcset="/img/loading.gif" lazyload></p>
 <ul>
 <li>在右上角人物处点击Your repositories进入仓库</li>
 </ul>
-<p><img src="/images/post/github/2.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="/images/post/hexo_build/2.png" srcset="/img/loading.gif" lazyload></p>
 <ul>
 <li><p>点击New创建新仓库</p>
 </li>
@@ -324,7 +324,7 @@
 
 <p>若出现：Hi xxx！则说明本地的Git成功连接到了Github</p>
 <p>打开hexo目录下的_config.yml文件，修改deploy如下：（忽略coding那一行，把lsilencej都改为你的Github用户名）</p>
-<p><img src="/images/post/github/3.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="/images/post/hexo_build/3.png" srcset="/img/loading.gif" lazyload></p>
 <h3 id="安装推送Git的插件"><a href="#安装推送Git的插件" class="headerlink" title="安装推送Git的插件"></a>安装推送Git的插件</h3><p>在hexo根目录下打开Git终端，输入：</p>
 <figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">npm install hexo-deployer-git --save<br></code></pre></div></td></tr></table></figure>
 
@@ -340,9 +340,9 @@
                   <div class="post-meta mr-3">
                     <i class="iconfont icon-category"></i>
                     
-                      <a class="hover-with-bg" href="/categories/%E6%8A%80%E5%B7%A7/">技巧</a>
+                      <a class="hover-with-bg" href="/categories/%E5%B9%B2%E8%B4%A7/">干货</a>
                     
-                      <a class="hover-with-bg" href="/categories/%E6%8A%80%E5%B7%A7/%E5%8D%9A%E5%AE%A2/">博客</a>
+                      <a class="hover-with-bg" href="/categories/%E5%B9%B2%E8%B4%A7/%E5%8D%9A%E5%AE%A2/">博客</a>
                     
                   </div>
                 
@@ -359,6 +359,12 @@
                 <div class="post-prevnext">
                   <article class="post-prev col-6">
                     
+                    
+                      <a href="/2021/07/14/20210714/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">记录一次悲惨的回家经历</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
                     
                   </article>
                   <article class="post-next col-6">
